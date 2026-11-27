@@ -15,7 +15,8 @@ p{color:var(--mute);max-width:62ch}.lead{color:var(--ink)}
 
 /* header */
 .site-header{position:fixed;inset:0 0 auto;height:var(--hh);display:flex;align-items:center;justify-content:space-between;padding:0 max(1.25rem,5vw);background:rgba(13,13,18,.82);backdrop-filter:blur(10px);z-index:50;border-bottom:1px solid var(--line)}
-.brand{text-decoration:none;font-size:1.4rem;letter-spacing:.02em}.brand span{color:var(--pink);font-weight:400;font-style:italic}
+.brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;font-size:1.4rem;letter-spacing:.02em}.brand span{color:var(--pink);font-weight:400;font-style:italic}
+.brand img{height:44px;width:auto;max-width:none;display:block;object-fit:contain;filter:brightness(0) invert(1)}
 nav{display:flex;align-items:center;gap:1.75rem}
 nav a{text-decoration:none;color:var(--mute);font-size:.95rem;padding:.4rem 0;border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
 nav a:hover,nav a.on{color:var(--ink);border-color:var(--pink)}
