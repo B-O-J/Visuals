@@ -1,2 +1,2 @@
-# BOJvisuals
+# Visuals
 Personal Website
